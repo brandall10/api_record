@@ -1,24 +1,9 @@
-# README
+Example code for my blog post: [ActiveRecord: Automatically Marshall an API Response](http://www.beaucodes.com/api-record)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run
 
-Things you may want to cover:
+1. clone project
+2. bundle install
+3. rake
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Note that there are no models used in this project as it uses the [temping gem](https://github.com/jpignata/temping) to create a table on the fly for testing.
